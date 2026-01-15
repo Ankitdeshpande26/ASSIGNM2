@@ -5,7 +5,7 @@ function fun(event) {
   const head = document.getElementById("head");
 
   if (inputBox.value.trim() !== "") {
-    head.innerText = inputBox.value;
+    head.innerText = "Hello " +  inputBox.value;
 } else {
   console.log("Input box is empty");
 }
@@ -64,4 +64,5 @@ function onclickf4(){
       box4.style.backgroundColor="white";
       clicked4 = false;
     }
+
 } box4.onclick = onclickf4;
